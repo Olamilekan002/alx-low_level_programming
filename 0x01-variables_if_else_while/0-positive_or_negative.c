@@ -2,7 +2,11 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+* main - Start of function
+*
+* Return: returns 1 when successful
+*/
 int main(void)
 {
 	int n;
