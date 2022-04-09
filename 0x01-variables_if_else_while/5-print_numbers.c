@@ -11,9 +11,10 @@ int main(void)
 
 char num;
 
-for (num = 0; num < 10; num++)
+while (num < 10)
 {
 putchar(num);
+num++
 }
 putchar('\n');
 return (0);
