@@ -25,7 +25,7 @@ putchar(x);
 putchar(y);
 putchar(z);
 
-if (x < 56)
+if (x < 55)
 {
 putchar(44);
 putchar(' ');
