@@ -14,7 +14,7 @@ char num;
 while (num < 10)
 {
 putchar(num);
-num++
+num++;
 }
 putchar('\n');
 return (0);
