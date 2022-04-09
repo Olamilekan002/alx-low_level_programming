@@ -13,8 +13,8 @@ int num;
 
 for (num = 0; num < 10; num++)
 {
-printf(num);
+putchar(num);
 }
-printf('\n');
+putchar('\n');
 return (0);
 }
