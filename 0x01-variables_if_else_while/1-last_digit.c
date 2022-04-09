@@ -4,8 +4,8 @@
 
 /**
 * main - Start of function
-*
-* Return: returns 1 when successful
+* checks for last value of n
+* Return: returns 0 when successful
 */
 
 int main(void)
