@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
 * main - Entry function
@@ -9,5 +10,5 @@
 int main(void)
 {
     _putchar("_putchar");
-    return (0)
+    return (0);
 }
