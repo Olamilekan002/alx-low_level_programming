@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks for lowercase
- * c: contains value to be compared
+ * @c: contains value to be compared
  * Return: Always 0.
  */
 
