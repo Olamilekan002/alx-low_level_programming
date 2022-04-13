@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* jack_bauer - prints time
+* times_table - prints time table of 9
 *
 * Return : no return
 */
 
-void jack_bauer(void)
+void times_table(void)
 {
 int i, j, mul;
 
