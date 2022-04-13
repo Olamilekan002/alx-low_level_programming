@@ -12,24 +12,39 @@ int i, j, mul;
 
 for (i = 0; i <= 9; i++)
 {
-
 for (j = 0; j <= 9; j++)
 {
+int mul;
 mul = i * j;
-
-if (mul / 10 != 0)
+if ((j == 0) && (mul / 10 == 0))
+{
+_putchar (mul % 10 + '0');
+}
+else if ((i == 0) && (j > 0))
+{
+_putchar (' ');
+_putchar (mul % 10 + '0');
+}
+else if ((mul / 10 == 0) && (mul % 10 != 0))
+{
+_putchar (' ');
+_putchar (mul % 10 + '0');
+}
+else
 {
 _putchar (mul / 10 + '0');
-}
 _putchar (mul % 10 + '0');
+ 
+}
+
+
 if (j != 9)
 {
 _putchar (',');
 _putchar (' ');
 }
 }
+
 _putchar ('\n');
-
 }
-
 }
