@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
-* add - add two numbers
-*
-* Return : returns the additon
+* add - function add two numbers
+* @x: first value
+* @y: second value
+* Return: returns the additon
 */
 
 int add(int x, int y)
