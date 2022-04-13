@@ -19,7 +19,7 @@ mul = i * j;
 
 if (mul / 10 != 0)
 {
-putchar (mul / 10 + '0');
+_putchar (mul / 10 + '0');
 }
 _putchar (mul % 10 + '0');
 if (j != 9)
