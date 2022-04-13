@@ -17,7 +17,10 @@ for (j = 0; j <= 9; j++)
 {
 mul = i * j;
 
-_putchar (mul / 10 + '0');
+if (mul / 10 != 0)
+{
+putchar (mul / 10 + '0');
+}
 _putchar (mul % 10 + '0');
 if (j != 9)
 {
