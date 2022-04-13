@@ -13,5 +13,5 @@ int last;
 
 last = n % 10;
 _putchar(last + '0');
-return (n);
+return (last);
 }
