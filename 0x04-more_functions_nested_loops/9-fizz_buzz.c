@@ -4,7 +4,7 @@
 /**
 * main - prints 1 to 100, followed by a new line with FIZZ, BUZZ AND FIZZBUZZ
 *
-*Return: Return 0
+* Return: return 0
 */
 int main(void)
 {
@@ -28,11 +28,11 @@ printf(" Buzz");
 
 else if (i == 1)
 {
-printf("%d",(i));
+printf("%d", (i));
 }
 else
 {
-printf(" %d",(i));
+printf(" %d", (i));
 }  
 }
 return (0);
