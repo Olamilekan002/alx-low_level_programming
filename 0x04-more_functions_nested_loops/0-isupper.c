@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-* int _isupper - check the code.
-*
+* _isupper - check the code.
+* @letter: the letter to test
 * Return: Always 0.
 */
 
-int _isupper(int c)
+int _isupper(int letter)
 {
-if (c >= 65 && c <= 90)
+if (letter >= 'A' && letter <= 'Z')
 {
 return (1);
 }
