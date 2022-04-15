@@ -1,5 +1,4 @@
 #include 'main.h'
-#include <stdio.h>
 
 /**
 * mul - multiply two numbers
@@ -8,7 +7,6 @@
 *
 * Return: Returns the product of the two num
 */
-
 int mul(int num1, int num2)
 {
 int mul_val;
