@@ -3,12 +3,10 @@
 /**
 * more_numbers - prints 1 to 14 10times
 */
-
 void more_numbers(void)
 {
 int x;
 int y;
-
 for (x = 0; x < 11; x++)
 {
 for (y = 0; y < 15; y++)
