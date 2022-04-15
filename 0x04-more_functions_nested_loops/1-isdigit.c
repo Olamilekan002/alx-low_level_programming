@@ -6,15 +6,7 @@
 * Return: 1 if digit else 0.
 */
 
-int _isdigit(int digit)
+int _isdigit(int num)
 {
-if (digit >= '0' && digit <= '9')
-{
-return (1);
-}
-
-else
-{
-return(0);
-}
+return (num >= '0' && num <= '9');
 }
