@@ -11,5 +11,7 @@
 
 int mul(int num1, int num2)
 {
-return (num1 * num2);
+int mul_val;
+mul_val = num1 * num2;
+return (mul_val);
 }
