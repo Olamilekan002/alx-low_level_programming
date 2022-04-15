@@ -2,7 +2,7 @@
 
 /**
 * _isdigit - check the code
-* @digit - the digit to check for
+* @digit: the digit to check for
 * Return: Always 0.
 */
 
@@ -15,7 +15,7 @@ return (1);
 
 else
 {
-return(0)
+return(0);
 }
 
 }
