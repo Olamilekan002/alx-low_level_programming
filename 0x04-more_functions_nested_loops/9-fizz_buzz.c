@@ -2,32 +2,37 @@
 #include <stdio.h>
 
 /**
-* main - draws a straight line in the terminal
+* main - prints 1 to 100, followed by a new line with FIZZ, BUZZ AND FIZZBUZZ
 *
+*Return: Return 0
 */
-void main()
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
 {
-printf("FizzBuzz ");
+printf(" FizzBuzz");
 }
 
 else if (i % 3 == 0)
 {
-printf("Fizz ");
+printf(" Fizz");
 }
 
 else if (i % 5 == 0)
 {
-printf("Buzz ");
+printf(" Buzz");
 }
 
+else if (i == 1)
+{
+printf("%d",(i));
+}
 else
 {
-printf("%d ",(i));
+printf(" %d",(i));
 }  
 }
 }
