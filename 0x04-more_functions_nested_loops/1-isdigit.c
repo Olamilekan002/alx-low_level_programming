@@ -3,7 +3,7 @@
 /**
 * _isdigit - check the code
 * @digit: the digit to check for
-* Return: Always 0.
+* Return: 1 if digit else 0.
 */
 
 int _isdigit(int digit)
@@ -17,5 +17,4 @@ else
 {
 return(0);
 }
-
 }
