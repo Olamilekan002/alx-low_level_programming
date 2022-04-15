@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* more_numbers - prints 1 to 14 10times
+* more_numbers - prints 1 to 14 10 times
 */
+
 void more_numbers(void)
 {
 int x;
@@ -15,5 +16,4 @@ _putchar(y + '0');
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
