@@ -18,8 +18,7 @@ len++;
 s++;
 }
 
-  
-for (i = len - 1; len >= 0; len--)
+for (i = len - 1; i >= 0; i--)
 {
 _putchar(s[i]);
 }
