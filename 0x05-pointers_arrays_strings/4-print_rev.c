@@ -6,7 +6,7 @@
 * @s: the string to be printed to stdout
 */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 int len;
 
