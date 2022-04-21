@@ -15,8 +15,7 @@ for (length = 0; str[length] != '\0'; length++)
 }
 n = (length - 1) / 2;
 
-i = n + 1;
-for (i; i < length; i++)
+for (i = n + 1; i < length; i++)
 {
 _putchar(str[i]);
 }
