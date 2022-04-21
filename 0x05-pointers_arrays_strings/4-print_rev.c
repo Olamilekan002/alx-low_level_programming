@@ -21,7 +21,7 @@ s++;
   
 for (i = len - 1; len >= 0; len--)
 {
-_putchar(*(&s + i));
+_putchar(s[i]);
 }
 
 _putchar('\n');
