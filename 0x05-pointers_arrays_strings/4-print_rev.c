@@ -19,7 +19,7 @@ s++;
 }
 
   
-for (i = len - 1, len >= 0, len--)
+for (i = len - 1; len >= 0; len--)
 {
 _putchar(*(s + i));
 }
