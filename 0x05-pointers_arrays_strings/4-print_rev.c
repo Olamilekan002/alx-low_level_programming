@@ -10,7 +10,12 @@ void print_rev(char *s)
 {
 int len;
 
-len = _strlen(s); /* a funtion that was once written */
+len = 0;
+while (*s != '\0')
+{
+len++;
+s++;
+}
 
 while (len >= 0)
 {
