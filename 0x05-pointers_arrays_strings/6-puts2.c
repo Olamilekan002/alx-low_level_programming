@@ -19,4 +19,5 @@ for (i = 0; i < length; i += 2)
 {
 _putchar(str[i]);
 }
+_putchar('\n');
 }
