@@ -5,6 +5,7 @@
 *
 *@dest: destination array
 *@src: source array
+*Return: Return dest
 */
 
 char *_strcpy(char *dest, char *src)
