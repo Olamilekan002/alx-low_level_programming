@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-*_strcat - concatenate two string
+*_strncat - concatenate two string
 *
 *@dest: destination string
 *@src: source string
+*@n: limit from src
 *
 *Return: returns the pointer to dest
 */
