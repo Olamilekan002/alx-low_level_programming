@@ -11,7 +11,6 @@ int i = 0, j = 0;
 
 char string_rot13[] = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
 char string_alpha[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
-
 while (s[i] != '\0')
 {
 do {
@@ -20,6 +19,7 @@ if (s[i] == string_alpha[j])
 {
 
 s[i] = string_rot13[j];
+
 break;
 }
 
