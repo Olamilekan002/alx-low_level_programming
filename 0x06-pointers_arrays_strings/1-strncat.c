@@ -19,7 +19,8 @@ while (dest[i] != '\0')
 i++;
 }
 while (src[k] != '\0' && n > k)
-{dest[i] = src[k];
+{
+dest[i] = src[k];
 k++;
 i++;
 }
