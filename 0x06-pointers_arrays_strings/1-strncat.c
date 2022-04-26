@@ -18,12 +18,14 @@ while (dest[i] != '\0')
 {/* this increase i to len of dest*/
 i++;
 }
-while (n > 0)
-{
-dest[i] = src[j];
+while (src[k] != '\0' && n > k)
+{dest[i] = src[k];
+k++;
 i++;
-j++;
-n--;
+}
+if (n > 0)
+{
+dest[i] = '\0'
 }
 
 return (dest);
