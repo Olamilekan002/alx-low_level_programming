@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
 *_strchr - Finds a char in a string
 *@s: the memory
-*@c: constant byte
+*@d: constant byte
 *Return: points to the c
 */
 
