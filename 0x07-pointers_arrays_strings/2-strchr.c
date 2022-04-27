@@ -15,9 +15,9 @@ while (s[i] != '\0')
 {
 if (s[i] == c)
 {
-return ((s + i));
+break;
 }
 i++;
 }
-return ('\0');
-}   
+return (s[i] == c ? (s + i) : '\0');;
+}
