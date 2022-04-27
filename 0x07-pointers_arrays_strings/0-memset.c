@@ -6,7 +6,7 @@
 *@s: the memory
 *@b: constant byte
 *@n: number of the byte
-*
+*Return: points to a pointer
 */
 
 char *_memset(char *s, char b, unsigned int n)
