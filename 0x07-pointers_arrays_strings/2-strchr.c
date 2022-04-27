@@ -2,20 +2,20 @@
 /**
 *_strchr - Finds a char in a string
 *@s: the memory
-*@d: constant byte
+*@c: constant byte
 *Return: points to the c
 */
 
 char *_strchr(char *s, char c)
 {
-int i;
+unsigned int i;
 
 i = 0;
 while (s[i] != '\0')
 {
 if (s[i] == c)
 {
-return (s + i);
+return ((s + i));
 }
 i++;
 }
