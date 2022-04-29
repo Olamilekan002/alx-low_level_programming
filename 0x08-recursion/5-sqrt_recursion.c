@@ -10,9 +10,9 @@
 
 int sqrt_(int x, int y)
 {
-	if (x * x == y)
-		return (x);
-	else if (x * x > y)
+	if (y * y == x)
+		return (y);
+	else if (y * y > x)
 		return (-1);
 	return (sqrt_(x, y + 1));
 }
