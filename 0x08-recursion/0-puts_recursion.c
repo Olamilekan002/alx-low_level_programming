@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
-* _puts_recursion - gets the length of a prefix substring
-* @s: input string to search for substring
-* Return: length of prefix substring
+* _puts_recursion - recursive function
+* @s: string to be recursively printed
+* Return: void
 */
 
 void _puts_recursion(char *s)
 {
-if (s == '\0')
+if (*s == 0)
 {
-return ('\n');
+_putchar('\n');
+return;
 }
-_putchar(s);
+_putchar(*s);
 
 _puts_recursion(s + 1);
 }
