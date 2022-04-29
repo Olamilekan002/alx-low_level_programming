@@ -13,7 +13,7 @@ int getprime(int x, int y)
 		return (1);
 	else if (x % y == 0)
 		return (0);
-	return (prime2(x, y + 1));
+	return (getprime(x, y + 1));
 }
 
 /**
