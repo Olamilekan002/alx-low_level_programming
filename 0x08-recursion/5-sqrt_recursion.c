@@ -14,7 +14,7 @@ int sqrt_(int x, int y)
 		return (x);
 	else if (x * x > y)
 		return (-1);
-	return (sqrt_(x, x + 1));
+	return (sqrt_(x, y + 1));
 }
 
 
