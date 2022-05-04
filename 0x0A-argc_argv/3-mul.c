@@ -22,7 +22,7 @@ printf("%d\n", mul);
 }
 else
 {
-X = 1;
+x = 1;
 printf("Error\n");
 }
 
