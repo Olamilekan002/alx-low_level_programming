@@ -17,11 +17,11 @@ x = 0;
 sum = 0;
 if (argc < 2)
 {
-mul = atoi(argv[1]) * atoi(argv[2]);
-printf("%d\n", mul);
+printf("%d\n", sum);
 }
 else
 {
+mul = atoi(argv[1]) * atoi(argv[2]);
 x = 1;
 printf("%s\n", "Error");
 }
