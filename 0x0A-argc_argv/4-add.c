@@ -22,7 +22,7 @@ else
 {
 while (argc > 1)
 {
-    if (isdigit(argv[argc]))
+    if (isdigit(argv[argc]) > 0)
     {
     sum += atoi(argv[argc]);
     argc--;
