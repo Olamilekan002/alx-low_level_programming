@@ -11,9 +11,8 @@
 
 int main(int argc, char **argv)
 {
-int sum, x;
+int sum;
 
-x = 0;
 sum = 0;
 if (argc < 2)
 {
@@ -21,10 +20,19 @@ printf("%d\n", sum);
 }
 else
 {
-sum = atoi(argv[1]) + atoi(argv[2]);
-x = 1;
-printf("%s\n", "Error");
+while (argc > 1)
+{
+    if (isdigit(argv[argc]))
+    {
+    sum += atoi(argv[argc]);
+    argc--;
+    }
+    else
+    {
+        printf("%s\n", "Error");
+        return (1);
+    }
+    }
 }
-
-return (x);
+return (0);
 }
