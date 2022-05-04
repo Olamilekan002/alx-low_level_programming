@@ -6,14 +6,14 @@
 *
 * @argc: Counts the number of parameters that go into main
 * @argv: Pointer of array of pointers containing strings entering main
-* Return: 1 when successful
+* Return: 1 when failed
 */
 
 int main(int argc, char **argv)
 {
 int mul, x;
 
-X = 0;
+x = 0;
 mul = 0;
 if (argc == 3)
 {
