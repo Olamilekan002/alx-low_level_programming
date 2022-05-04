@@ -11,7 +11,7 @@
 
 int main(int argc, char **argv)
 {
-int mul, x;
+int sum, x;
 
 x = 0;
 sum = 0;
@@ -21,7 +21,7 @@ printf("%d\n", sum);
 }
 else
 {
-mul = atoi(argv[1]) * atoi(argv[2]);
+sum = atoi(argv[1]) + atoi(argv[2]);
 x = 1;
 printf("%s\n", "Error");
 }
