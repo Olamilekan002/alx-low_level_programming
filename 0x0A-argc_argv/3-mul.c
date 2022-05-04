@@ -10,8 +10,8 @@
 */
 
 int main(int argc, char **argv)
-int mul;
 {
+int mul;
 
 if (argc == 3)
 {
