@@ -23,7 +23,7 @@ else
 {
 sum = atoi(argv[1]) + atoi(argv[2]);
 x = 1;
-printf("%s\n", "Error");
+printf("%d\n", sum);
 }
 
 return (x);
