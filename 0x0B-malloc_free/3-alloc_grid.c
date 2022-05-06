@@ -29,5 +29,5 @@ for (k = 0; k < (width * height); k++)
 mat[k] = 0;
 }
 
-return (*mat);
+return (0);
 }
