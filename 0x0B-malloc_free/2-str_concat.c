@@ -25,7 +25,11 @@ for (j = 0; s2[j]; j++)
 j++;
 
 str = malloc(sizeof(char) * (i + j));
-  
+if (str = NULL)
+{
+return (NULL);
+}
+
 for (k = 0; k < i; k++)
 {
 str[k] = s1[k];
