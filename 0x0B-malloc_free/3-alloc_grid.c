@@ -18,7 +18,7 @@ if (width < 1 || height < 1)
 return (NULL);
 }
 
-matr = malloc(sizeof(*mat) * (width * height));
+mat = malloc(sizeof(*mat) * (width * height));
 if (mat == NULL)
 {
 return (NULL);
