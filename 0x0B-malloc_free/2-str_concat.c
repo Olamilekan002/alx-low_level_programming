@@ -24,7 +24,7 @@ for (j = 0; s2[j]; j++)
 ;
 j++;
 
-str = malloc(sizeof(char) * (i+j));
+str = malloc(sizeof(char) * (i + j));
   
 for (k = 0; k < i; k++)
 {
@@ -33,8 +33,8 @@ str[k] = s1[k];
 
 for (; k < i + j; k++)
 {
-		str[i + j] = s2[k - i];
-  }
-	str[k] = '\0';
-	return (str);
+str[k] = s2[k - i];
+}
+str[k] = '\0';
+return (str);
 }
