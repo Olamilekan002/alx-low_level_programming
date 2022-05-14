@@ -9,9 +9,10 @@
  * Return: If no match is found or size is less than 1, or if array is NULL or
  * cmp is NULL, return -1. Otherwise return the index of the first match.
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+int i;
 if (cmp && array)
 	{
 		for (i = 0; i < size; ++i)
