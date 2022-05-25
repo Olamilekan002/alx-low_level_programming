@@ -5,23 +5,19 @@
  * @h: the list to print
  *
  * Description: Print each list item, prefixed by it's length, formatted using
- * "[%d] %s\n". If a list item is NULL, print it as "(nil)" with length zero.
+ * "[%d] %s\n".
  *
- * Return: size of the list
+ * Return: size of the list if successful
  */
 size_t print_list(const list_t *h)
 {
-	size_t l_node;
-
-	l_node = 0;
-	while (h != NULL)
+	if (h)
 	{
-		if (h->str == NULL)
-			printf("[%d] %s\n", 0, "(nil)");
-		else
+		if (h->str)
 			printf("[%d] %s\n", h->len, h->str);
-		h = h->next;
-		l_node++;
+		else
+			printf("[0] (nil)\n");
+		return (print_list(h->next) + 1);
 	}
-	return (l_node);
+	return (0);
 }
