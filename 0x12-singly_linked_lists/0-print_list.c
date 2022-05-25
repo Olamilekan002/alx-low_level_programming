@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
-* print_list - print list items
-* @h: the list to print
-*
-* Description: Print each list item, prefixed by it's length, formatted using
-* "[%d] %s\n". If a list item is NULL, print zero and "(nil)".
-*
-* Return: size of the list
-*/
+ * print_list - print list items
+ * @h: the list to print
+ *
+ * Description: Print each list item, prefixed by it's length, formatted using
+ * "[%d] %s\n". If a list item is NULL, print it as "(nil)" with zero length.
+ *
+ * Return: size of the list
+ */
 size_t print_list(const list_t *h)
 {
 	if (h)
