@@ -5,7 +5,7 @@
  * @h: the list to print
  *
  * Description: Print each list item, prefixed by it's length, formatted using
- * "[%d] %s\n". If a list item is NULL, print it as "(nil)" with zero length.
+ * "[%d] %s\n". If a list item is NULL, print it as "(nil)" with length zero.
  *
  * Return: size of the list
  */
