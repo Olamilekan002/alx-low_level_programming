@@ -9,7 +9,7 @@
  *
  * Return: size of the list if successful
  */
-size_t print_list(const list_t *h)
+size_t print_listint(const list_t *h)
 {
 	if (h)
 	{
