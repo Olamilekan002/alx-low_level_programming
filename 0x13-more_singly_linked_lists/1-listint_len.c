@@ -7,7 +7,7 @@
  * Return: size of the list
  */
 
-size_t list_len(const list_t *h)
+size_t listint_len(const listint_t *h)
 {
 	if (h)
 	{
