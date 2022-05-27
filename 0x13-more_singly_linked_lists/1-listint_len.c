@@ -1,17 +1,13 @@
 #include "lists.h"
 
 /**
- * list_len - print the number of elements
- * @h: the list to print no of elements
+ * listint_len - count the elements in a linked list
+ * @h: a pointer to the first node
  *
- * Return: size of the list
+ * Return: the number of list elements
  */
-
 size_t listint_len(const listint_t *h)
 {
-	if (h)
-	{
-		return (list_len(h->next) + 1);
-	}
-	return (0);
+	return (h ? listint_len(h->next) + 1 : 0);
+
 }

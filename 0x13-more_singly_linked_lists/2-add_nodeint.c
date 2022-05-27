@@ -1,46 +1,26 @@
 #include "lists.h"
 
 /**
- * _strlen - calculate the length of a string
- * @str: the string to calculate the length of
+ * add_nodeint - add an element at the beginning of a linked list
+ * @head: a pointer to a pointer to the first node
+ * @n: the element to add
  *
- * Return: the length of the string
+ * Return: If memory allocation fails or head is NULL, return NULL.
+ * Otherwise, return the address of the new node.
  */
-size_t _strlen(const char *str)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
-	const char *pos = str;
-
-	if (str)
-	{
-		while (*pos)
-			++pos;
-	}
-	return (pos - str);
-}
-
-/**
- * add_node - insert a string at the beginning of the list
- * @head: a pointer to the address of the first list node
- * @str: the string to add to the list
- *
- * Return: If memory allocation fails, return NULL. Otherwise, return the
- * address of the new no
- */
-list_t *add_node(list_t **head, const char *str)
-{
-	list_t *new = NULL;
+	listint_t *new;
 
 	if (!head)
 		return (NULL);
 
-	new = malloc(sizeof(list_t));
+	new = malloc(sizeof(listint_t));
 	if (!new)
 		return (NULL);
 
-	new->str = strdup(str);
-	new->len = (_strlen(new->str));
+	new->n = n;
 	new->next = *head;
-
 	*head = new;
 
 	return (new);

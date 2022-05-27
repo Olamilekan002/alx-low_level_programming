@@ -1,15 +1,14 @@
 #include "lists.h"
 
 /**
- * free_list - frees a linked list
- * @head: the first list node
+ * free_listint - free a linked list
+ * @head: a pointer to the first node
  */
-void free_list(list_t *head)
+void free_listint(listint_t *head)
 {
-	if (!head)
-		return;
-
-	free_list(head->next);
-	free(head->str);
-	free(head);
+	if (head)
+	{
+		free_listint(head->next);
+		free(head);
+	}
 }
