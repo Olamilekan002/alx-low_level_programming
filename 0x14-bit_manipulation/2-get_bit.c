@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * get_bit - check if a bit is on
+ * get_bit - return the value of bit at an index
  * @n: the integer to operate on
  * @index: the index of the desired bit
  *
