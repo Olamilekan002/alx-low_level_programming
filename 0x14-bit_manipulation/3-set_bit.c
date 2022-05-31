@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * set_bit - turn a bit on
+ * set_bit - set a bit to 1
  * @n: a pointer to  the integer to operate on
  * @index: the index of the bit to turn on
  *
